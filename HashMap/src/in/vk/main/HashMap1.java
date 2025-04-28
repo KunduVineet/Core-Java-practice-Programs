@@ -1,6 +1,7 @@
 package in.vk.main;
 
 import java.util.HashMap;
+import java.util.Set;
 
 public class HashMap1 {
 	
@@ -14,6 +15,9 @@ public class HashMap1 {
 		hm.put(103, "Deepak");
 		
 		System.out.println(hm);
+		
+		Set set = hm.entrySet();
+		System.out.println(set);
 	}
 
 }
