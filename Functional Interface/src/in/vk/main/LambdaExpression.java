@@ -12,6 +12,10 @@ interface length{
 	public int getLength(String s);
 }
 
+interface square{
+	public int squares(int y);
+}
+
 public class LambdaExpression {
 	public static void main(String[] args) {
 		interf i = () -> System.out.println("Lambda Expression Implementation");
@@ -23,6 +27,9 @@ public class LambdaExpression {
 		length o = s -> s.length();
 		System.out.println(o.getLength("Hello"));
 		System.out.println(o.getLength("Invoking Lambda expression"));
+		
+		square p = y -> y * y;
+		System.out.println(p.squares(9));
 
 	}
 }
