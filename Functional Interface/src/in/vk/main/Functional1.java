@@ -1,3 +1,4 @@
+package in.vk.main;
 
 @FunctionalInterface
 interface Functional1 {
