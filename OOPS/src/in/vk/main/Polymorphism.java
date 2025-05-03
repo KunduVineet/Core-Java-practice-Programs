@@ -1,28 +1,43 @@
-package in.vk.main;
-
+// Parent class
 public class Polymorphism {
-    
+    // Method overloading (compile-time polymorphism)
     public int add(int a, int b) {
         return a + b;
     }
-    
+
     public int add(int a, int b, int c) {
         return a + b + c;
     }
-    
-    public double add(int a, int b, double c) {
-        return a + b + c;
+
+    public double add(double a, double b) {
+        return a + b;
+    }
+
+    // Method to be overridden
+    public void describe() {
+        System.out.println("This is a basic calculator.");
     }
 }
 
-class Implement extends Polymorphism {
-    
+// Child class
+class AdvancedCalculator extends Polymorphism {
+    // Method overriding (runtime polymorphism)
+    @Override
+    public void describe() {
+        System.out.println("This is an advanced calculator with enhanced features.");
+    }
+
     public static void main(String[] args) {
-        Polymorphism p = new Polymorphism(); // object of Polymorphism class
-        int a = p.add(1, 2);
-        double c = p.add(3, 5, 7); // corrected to double
-        
-        System.out.println(a);
-        System.out.println(c);
+        // Demonstrate method overloading
+        Polymorphism calc = new Polymorphism();
+        System.out.println("Sum of 2 ints: " + calc.add(2, 3));          // Calls add(int, int)
+        System.out.println("Sum of 3 ints: " + calc.add(2, 3, 4));       // Calls add(int, int, int)
+        System.out.println("Sum of 2 doubles: " + calc.add(2.5, 3.7));   // Calls add(double, double)
+
+        // Demonstrate method overriding
+        Polymorphism basicCalc = new Polymorphism();
+        Polymorphism advCalc = new AdvancedCalculator(); // Parent reference, child object
+        basicCalc.describe(); // Calls Calculator's describe
+        advCalc.describe();   // Calls AdvancedCalculator's describe (runtime polymorphism)
     }
 }

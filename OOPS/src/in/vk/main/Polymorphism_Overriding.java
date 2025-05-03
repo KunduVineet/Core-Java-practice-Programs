@@ -18,6 +18,5 @@ class a extends Polymorphism_Overriding{
 		Polymorphism_Overriding p = new Polymorphism_Overriding();
 		
 		p.sleep();
-		
 	}
 }
