@@ -11,6 +11,4 @@ public class EvenOddLambda {
 		
 			System.out.println(e.odd(30));
 	}
-
-	
 }

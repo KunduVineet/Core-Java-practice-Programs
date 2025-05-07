@@ -1,6 +1,6 @@
-// Parent class
+package in.vk.main;
+
 public class Polymorphism {
-    // Method overloading (compile-time polymorphism)
     public int add(int a, int b) {
         return a + b;
     }
@@ -21,7 +21,6 @@ public class Polymorphism {
 
 // Child class
 class AdvancedCalculator extends Polymorphism {
-    // Method overriding (runtime polymorphism)
     @Override
     public void describe() {
         System.out.println("This is an advanced calculator with enhanced features.");
