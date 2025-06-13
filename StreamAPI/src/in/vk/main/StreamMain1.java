@@ -37,5 +37,8 @@ public class StreamMain1 {
 		List<Integer> newList2 = list1.stream().filter(i->i%2==0).collect(Collectors.toList());
 	
 		System.out.println(newList2);
+		
+		List<Integer> l = list1.stream().filter(i-> i >10).collect(Collectors.toList());
+		System.out.println(l);
 	}
 }
