@@ -20,5 +20,4 @@ public class Singleton {
  // Usage:
     Singleton s1 = Singleton.getInstance();
     Singleton s2 = Singleton.getInstance();
-
 }

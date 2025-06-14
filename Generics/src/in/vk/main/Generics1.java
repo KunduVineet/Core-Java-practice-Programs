@@ -12,6 +12,18 @@ public class Generics1 {
 		list.add("qwer");
 		list.add("tyui");
 		System.out.println(list);
+		
+		//Object class is top most class of all java classes. 
+	}
+	
+	Object container;
+	
+	public Generics1(Object container) {
+		this.container = container;
+	}
+	
+	public Object getValue() {
+		return this.container;
 	}
 
 }
