@@ -12,6 +12,7 @@ public class StreamMethods {
 		
 		List<Integer> numbers = List.of(1,2,3,4,11,34,56,46,6,7,8,9,10);
 		numbers.stream().map(e->e*e).sorted().forEach(e->System.out.println(e));
-
+		
+		System.out.println(numbers.stream().filter(e -> e% 2 == 0).mapToInt(Integer::intValue).sum());
 	}
 }
