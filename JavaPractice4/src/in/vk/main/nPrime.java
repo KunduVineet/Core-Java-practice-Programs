@@ -13,5 +13,4 @@ public class nPrime {
 	public static void printPrimes(int current, int n) {
 		
 	}
-
 }

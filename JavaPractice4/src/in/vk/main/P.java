@@ -23,7 +23,7 @@ public class P {
 		}	else {
 			System.out.println("No, it's not a palindrome");
 		} 
-			sc.close();
+		sc.close();
 	}
 
 }
