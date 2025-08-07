@@ -6259,3 +6259,6 @@ Binding(CTRL+SHIFT+T,
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-08-06 19:47:53.100
 !MESSAGE Classpath changed for project: Interfaces Methods
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-08-07 14:07:28.251
+!MESSAGE Classpath changed for project: Predicate
