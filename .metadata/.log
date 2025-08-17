@@ -7339,3 +7339,9 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-08-17 19:05:29.947
+!MESSAGE Classpath changed for project: Java8-RealtimeProjectImpl
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-08-17 19:08:12.806
+!MESSAGE Classpath changed for project: Java8-RealtimeProjectImpl
