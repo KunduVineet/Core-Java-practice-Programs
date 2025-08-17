@@ -56,5 +56,9 @@ class Employee{
 		this.gender = gender;
 	}
 	
+	@Override
+    public String toString() {
+        return "Employee{name='" + name + "', salary=" + salary + ", dept='" + dept + "'}";
+    }
 
 }
