@@ -7572,3 +7572,6 @@ Binding(CTRL+SHIFT+T,
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-09-01 18:49:18.369
 !MESSAGE Classpath changed for project: Stream API Enhancements
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-09-01 19:22:20.529
+!MESSAGE Classpath changed for project: var keyword
